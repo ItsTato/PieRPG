@@ -1,12 +1,12 @@
 # PieRPG
 Concept! Extensible, simple-to-use-&amp;-learn and, lightweight game engine for making web RPGs using a Python backend.
 
-# Revision the 2nd
+# Revision the 2nd and a half
 > [!NOTE]
 > Everything described in this document is just a concept of a possible game engine that I am interested in creating. Due to how busy I am at the moment, this is most likely to be abandoned here for a while or inmediately picked up. No way to tell.
 
 ## Plugins
-PieRPS's default functionality can be easily expanded using **Plugins**.
+PieRPG's default functionality can be easily expanded using **Plugins**.
 
 A plugin is a folder witth a plugin.yaml and can have any of the following files:
 - plugin.pre.js
@@ -55,6 +55,13 @@ Your game is written in Lua at the most basic leve but is ran in an environment 
 > I don't really like how it is so far. Will most likely change how this works. My main aim is making the game engine something you can build upon, but a seperate thing that just runs your files. Making a highly hackable game engine is probably what would best serve my purposes.
 
 Your maps, saved in .yaml files are rendered to HTML & CSS, where the player can actually interact with them. Each map will also contain a index.lua file which will handle any map-related events, such as interacting with an NPC. NPC dialogues and interactions can be optionally seperated into NPC.lua files, where you can write out your NPC and then make functional in your index.lua file by doing `Registrar.AddNPC('NPC.lua');`.
+
+```lua title="Index.lua"
+-- Index.lua
+-- This is where all of your code will go.
+
+
+```
 
 After this, there will also be a **Player.lua** file. This file will be how your character moves, etc. By default, you will not need to touch this as it will come with some default move options. Notably, **freemove** will allow players to move freely but **gridmove** will force the player to the typical RPG grid-movement system.
 
