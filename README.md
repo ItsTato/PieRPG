@@ -1,7 +1,7 @@
 # PieRPG
 Concept! Extensible, simple-to-use-&amp;-learn and, lightweight game engine for making web RPGs using a Python backend.
 
-# Revision the 2nd and a half
+# Revision the 2nd and a half (and another half)
 > [!NOTE]
 > Everything described in this document is just a concept of a possible game engine that I am interested in creating. Due to how busy I am at the moment, this is most likely to be abandoned here for a while or inmediately picked up. No way to tell.
 
@@ -27,6 +27,14 @@ Version:
 Links:
   Discord: discord.gg/awesomedevs
   Github: ItsTato/awesomeplugin
+Credits:
+  License: MIT
+  Authors:
+    - ItsTato
+  Contributors:
+    - ItsTato
+  Play Testers:
+    - ItsTato
 ```
 
 ### Python Files
